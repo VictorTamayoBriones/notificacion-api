@@ -1,0 +1,43 @@
+body{
+    background: #c5c5c5;
+}
+
+button{
+    margin-top: 2% !important;
+    //margin-right: 3% !important;
+}
+
+.botones{
+    background: #afaeae;
+    padding: 10px;
+    text-align: center;
+    width: 30% !important;
+    margin-top: 2%;
+}
+
+.texto{
+    font-size: 22px;
+    width: 80%;
+    margin-top: 2%;
+    text-align: center;
+}
+.titulo{
+    color: #288aca;
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+.tarjeta{
+    width: 70%;
+    background: #3a3a3a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 2% auto;
+    border-radius: 8px;
+    img{
+        width: 60%;
+        margin-right: 2%;
+    }
+}
