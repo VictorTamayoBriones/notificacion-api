@@ -9,10 +9,9 @@ btnNotificar.addEventListener('click', ()=>{
 const btnVerNotificacion = document.querySelector('#verNotificacion');
 
 btnVerNotificacion.addEventListener('click', () =>{
-    console.log('Ahorita te sale una notificacion');
+    console.log('Notificacion lista');
 
     if(Notification.permission === 'granted'){
-        console.log('si debe salir');
         const notificacion = new Notification('Esta es una notificacion',{
             icon: '../img/ccj.png',
             body: 'hola que tal?,  no soy spam'
